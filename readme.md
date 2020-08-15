@@ -39,4 +39,16 @@
 ### 4、推荐的工具
 
 1. Github版本控制
-2. Markdown文本编辑
+2. Markdown文本编辑，推荐Typora
+
+### 5、HTTP的框架
+
+![image-20200815200227342](images\image-20200815200227342.png)
+
+### 6、服务器
+
+C、C++、Java、Python、PHP、Javascript（notejs）都可写后端
+
+java语言的服务器开发
+
+**servlet**
