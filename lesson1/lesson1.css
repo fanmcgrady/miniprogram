@@ -1,0 +1,10 @@
+div {
+    color:dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+div img {
+    width:800px;
+}
