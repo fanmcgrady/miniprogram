@@ -43,7 +43,8 @@
 
 ### 5、HTTP的框架
 
-![image-20200815200227342](images\image-20200815200227342.png)
+![image-20200815200227342](https://github.com/fanmcgrady/miniprogram\images\image
+-20200815200227342.png)
 
 ### 6、服务器
 
