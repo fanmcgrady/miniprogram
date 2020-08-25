@@ -1,0 +1,11 @@
+div {
+    text-align: center;
+    margin: 20px;
+}
+
+.tips {
+    background-color: #d9edf7;
+    margin: auto;
+    width: 1000px;
+    padding: 10px;
+}

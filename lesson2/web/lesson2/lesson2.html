@@ -3,23 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        div {
-            text-align: center;
-            margin: 20px;
-        }
-
-        .tips {
-            background-color: #d9edf7;
-            margin: auto;
-            width: 1000px;
-            padding: 10px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="lesson2.css">
 </head>
 <body>
-<div class="tips">Heads up! 本系统供《计算思维与程序设计导论》课程的同学们填写每节课意见！enjoy it！</div>
+<div class="tips">Heads up! 本系统供《微信小程序开发2222》课程的同学们填写每节课意见！enjoy it！</div>
 <div id="number-text">学号</div>
 <div><input id="number" type="text" placeholder="学号"/></div>
 <div>本节课意见</div>
@@ -29,32 +16,5 @@
     <button onclick="changeText()">修改文本</button>
 </div>
 </body>
-<script>
-    // value,innerText,innerHTML
-
-    function changeText() {
-        var text = document.getElementById("number-text");
-        alert(text.value);
-        // text.innerText = "<span style='color:red'>藏大你好</span>";
-    }
-
-    function sendMsg() {
-        var inputArray = document.getElementsByTagName("input");
-
-        // // 获取学号
-        // var number = document.getElementById("number").value;
-        // if (number == "") {
-        //     alert("请输入学号");
-        //     return;
-        // }
-        // // 获取意见
-        // var message = document.getElementById("message").value;
-        // if (message == "") {
-        //     alert("请输入意见");
-        //     return;
-        // }
-
-        alert("意见是：" + inputArray[0].value + "-" + inputArray[1].value);
-    }
-</script>
+<script src="lesson2.js"></script>
 </html>

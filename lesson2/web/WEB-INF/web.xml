@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>servlet.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>/servlet-example</url-pattern>
+    </servlet-mapping>
+
+</web-app>
